@@ -61,8 +61,6 @@ Follow the steps below to load advanced content runtime
 ./loadContentRuntimeTemplates.sh --cam_console <cam_console_host_with_port> --mcm_console <cam_console_host_with_port> --cam_user <user> --cam_password <password>
 ```
 
-Note: If you plan to rerun loadContentRuntimeTemplates.sh, remove advanced_content_runtime_chef and untar IBM-CAMHub-Open_advanced_content_runtime.tar and run the script.
- 
 Example:
 
 If CAM and MCM are running on specific ports, use  hostname:port or ip:port for cam_console and mcm_console.
@@ -105,8 +103,6 @@ Follow the steps below to load starter library
 ```bash
 ./loadStarterTemplates.sh --cam_console <cam_console_host_with_port> --mcm_console <cam_console_host_with_port> --cam_user <user> --cam_password <password>
 ```
-
-Note: If you plan to rerun loadStarterTemplates.sh, remove starterlibrary and untar IBM-CAMHub-Open_starterlibrary.tar and run the script.
 
 Example:
 
